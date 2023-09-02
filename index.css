@@ -7,6 +7,16 @@
     font-family: 'Volkhov', serif;
 }
 /* Header */
+
+.sticky{
+    background-color: #fff;
+    height: 70px;
+    
+}
+
+.sticky .fa-bars,.sticky .fa-sun,.sticky .fa-moon{
+    color: #000;
+}
 header{
     width: 100%;
     position: fixed;
