@@ -870,6 +870,19 @@
     </div>
 
     <!-- Optional JavaScript -->
+     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop()) {
+            $("header").addClass("sticky");
+          } else {
+            $("header").removeClass("sticky");
+          }
+        });
+      });
+    </script>
+    <script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
